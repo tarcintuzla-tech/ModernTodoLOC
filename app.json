@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "ModernTodoApp",
+    "slug": "ModernTodoApp",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "assets/moderntodo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "assets/moderntodo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kullaniciadin.moderntodoapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/moderntodo.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.kullaniciadin.moderntodoapp",
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "SCHEDULE_EXACT_ALARM",
+        "USE_EXACT_ALARM"
+      ]
+    },
+    "web": {
+      "favicon": "assets/moderntodo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6871e89-6dc4-4289-a827-23331883aa6e"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#6C63FF"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Arka plan olarak seçtiğin fotoğrafa erişmek için gerekli."
+        }
+      ]
+    ]
+  }
+}

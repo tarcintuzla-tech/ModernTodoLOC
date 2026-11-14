@@ -1,0 +1,39 @@
+# bağımlılıklar
+node_modules/
+
+# gizli bilgiler (şifre, API anahtarı vb. asla commit'leme)
+.env
+.env.*
+.env_backup
+*.pem
+*.key
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+google-services.json
+GoogleService-Info.plist
+
+# Expo / derleme çıktıları
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+/android
+/ios
+*.apk
+*.aab
+
+# Metro / debug
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# paketlenmiş kopyalar
+*.zip
+*.tsbuildinfo
